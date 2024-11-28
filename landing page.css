@@ -1,0 +1,123 @@
+/* Basic Styles */
+body {
+  font-family: sans-serif;
+  margin: 0;
+  padding: 0;
+  line-height: 1.6;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+/* Header */
+header {
+  background-color: #f8f8f8;
+  padding: 20px 0;
+
+}
+nav{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+nav ul{
+  display: flex;
+  list-style: none;
+  gap: 20px;
+
+}
+.logo {
+  font-size: 24px;
+  font-weight: bold;
+}
+.logo i{
+  color: palevioletred;
+}
+
+nav a {
+  text-decoration: none;
+  color: #333;
+  transition: color 0.3s;
+}
+
+nav a:hover {
+  color: palevioletred;
+}
+.cta-button {
+  background-color: palevioletred;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 5px;
+  text-decoration: none;
+  transition: background-color 0.3s;
+
+}
+
+.cta-button:hover {
+  background-color: rgb(163, 68, 89);
+}
+
+/* Hero Section */
+.hero {
+  background-image: url("https://static.vecteezy.com/system/resources/thumbnails/025/401/952/small/blue-ice-cream-pattern-background-seamless-repeating-wallpaper-vector.jpg");
+  background-size:cover;
+  background-position:center;
+  color:black;
+  text-align:center;
+  padding:100px 0;
+}
+.hero p{
+  font-size: 1.4em; /* Adjust font size as needed */
+  font-weight: bold;
+}
+.hero h1 {
+  font-size: 48px;
+  margin-bottom: 20px;
+}
+
+
+/* About Section */
+
+.about {
+  padding: 50px 0;
+  background-color: #f0f0f0;
+
+}
+
+.about img{
+  width: 100%;
+  height: auto;
+  margin-top: 30px;
+  border-radius: 10px;
+
+
+}
+/* Services Section */
+.services {
+  padding: 50px 0;
+}
+
+.service-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); /* Responsive grid */
+  gap: 20px;
+}
+
+.service {
+  text-align: center; /* Center content within each service */
+  border: 1px solid lightgray;
+  padding: 20px;
+  border-radius: 15px;
+}
+.service img{
+  border-radius: 10px;
+  width: 100%;
+  height: auto;
+}
+.service h3 {
+  margin-top: 20px;
+}
+

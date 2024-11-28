@@ -1,0 +1,39 @@
+/* ... previous CSS ... */
+
+.locations {
+    padding: 30px;
+    text-align: center;
+}
+
+.location-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    padding: 20px 0;
+}
+
+.location-card {
+    width: 300px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    padding: 20px;
+    text-align: left;
+}
+
+.location-card h3 {
+    margin-bottom: 10px;
+    font-size: 1.2em;
+}
+
+.location-card p {
+    margin-bottom: 5px;
+}
+
+.location-card a {
+    display: block;
+    margin-top: 10px;
+}
+
+/* ... rest of CSS ... */

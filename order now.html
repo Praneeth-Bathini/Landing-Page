@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sweet Scoops - Order Now</title>
+    <link rel="stylesheet" href="order now.css">
+</head>
+<body>
+
+    <header>
+        <h1>Sweet Scoops</h1>
+    </header>
+
+    <main>
+        <section class="order-form">
+            <h2>Order Your Sweet Treats</h2>
+            <form id="orderForm">
+                <div>
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" name="name" required>
+                </div>
+                <div>
+                    <label for="location">Location:</label>
+                    <input type="text" id="location" name="location" required>
+                </div>
+                <div>
+                    <label for="phone">Phone Number:</label>
+                    <input type="tel" id="phone" name="phone" required>
+                </div>
+                <div>
+                    <label for="flavor">Flavor:</label>
+                    <select id="flavor" name="flavor" required>
+                        <option value="chocolate">Chocolate</option>
+                        <option value="vanilla">Vanilla</option>
+                        <option value="strawberry">Strawberry</option>
+                        <option value="mint-chocolate-chip">Mint Chocolate Chip</option>
+                        <option value="cookie-dough">Cookie Dough</option>
+                        <option value="coffee cream">coffee cream</option>
+                        
+                    </select>
+                </div>
+                <div>
+                    <label for="quantity">Quantity:</label>
+                    <input type="number" id="quantity" name="quantity" min="1" value="1" required>
+                </div>
+                <a href="OrderPlacedSuccessfully.html" class="button">Place Order</a>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>© 2024 Sweet Scoops. All rights reserved.</p>
+    </footer>
+
+    <script src="order now.ts"></script>
+</body>
+</html>

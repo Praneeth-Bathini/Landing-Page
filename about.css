@@ -1,0 +1,22 @@
+/* ... previous CSS ... */
+
+.about {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 50px;
+}
+
+.about-content {
+    text-align: left;
+    max-width: 500px;
+}
+
+.about-image {
+    max-width: 400px;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+/* ... rest of CSS ... */
